@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,ag as o}from"./chunks/framework.BMOwWMAC.js";const b=JSON.parse('{"title":"2023 年度概览","description":"","frontmatter":{},"headers":[],"relativePath":"years/2023.md","filePath":"years/2023.md"}'),r={name:"years/2023.md"},c=o("",56),d=[c];function p(n,h,u,l,s,i){return a(),t("div",null,d)}const k=e(r,[["render",p]]);export{b as __pageData,k as default};
