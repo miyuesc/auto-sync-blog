@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a,ag as r}from"./chunks/framework.k5vz7fNg.js";const _=JSON.parse('{"title":"2020 年度概览","description":"","frontmatter":{},"headers":[],"relativePath":"years/2020.md","filePath":"years/2020.md"}'),o={name:"years/2020.md"},n=r("",16),s=[n];function d(h,p,l,c,i,b){return a(),e("div",null,s)}const m=t(o,[["render",d]]);export{_ as __pageData,m as default};
