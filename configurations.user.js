@@ -26,7 +26,7 @@ export default {
       { icon: "🎨", title: "CSS", details: "" },
     ],
 
-    nav: ["column", "category", "ranking", "annual", "follow"],
+    nav: ["column", "category", "ranking", "annual", "recent", "follow"],
 
     socialLinks: {
       github: "https://github.com/miyuesc/auto-sync-blog",
