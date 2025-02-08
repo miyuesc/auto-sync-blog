@@ -33,7 +33,7 @@ const active = ref(0);
 
 # 数据排行榜
 
-<div :class="$style['tabs-header']">
+<div class="tabs-header">
   <div :class="['tab-item', active === 0 ? 'tab-item-active' : '']" @click="active = 0">👀 阅读榜</div>
   <div :class="['tab-item', active === 1 ? 'tab-item-active' : '']" @click="active = 1">👍 点赞榜</div>
   <div :class="['tab-item', active === 2 ? 'tab-item-active' : '']" @click="active = 2">💬 评论榜</div>
