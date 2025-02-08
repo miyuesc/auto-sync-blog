@@ -34,10 +34,10 @@ const active = ref(0);
 # 数据排行榜
 
 <div :class="$style['tabs-header']">
-  <div :class="[$style['tab-item'], active === 0 ? $style['tab-item-active'] : '']" @click="active = 0">👀 阅读榜</div>
-  <div :class="[$style['tab-item'], active === 1 ? $style['tab-item-active'] : '']" @click="active = 1">👍 点赞榜</div>
-  <div :class="[$style['tab-item'], active === 2 ? $style['tab-item-active'] : '']" @click="active = 2">💬 评论榜</div>
-  <div :class="[$style['tab-item'], active === 3 ? $style['tab-item-active'] : '']" @click="active = 3">🗃 收藏榜</div>
+  <div :class="['tab-item', active === 0 ? 'tab-item-active' : '']" @click="active = 0">👀 阅读榜</div>
+  <div :class="['tab-item', active === 1 ? 'tab-item-active' : '']" @click="active = 1">👍 点赞榜</div>
+  <div :class="['tab-item', active === 2 ? 'tab-item-active' : '']" @click="active = 2">💬 评论榜</div>
+  <div :class="['tab-item', active === 3 ? 'tab-item-active' : '']" @click="active = 3">🗃 收藏榜</div>
 </div>
 
 <div class="ranking-list" v-show="active === 0">
