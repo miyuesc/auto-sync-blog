@@ -28,6 +28,7 @@ export default defineConfig({
   vite: {
     ssr: {
       noExternal: [
+        '@nolebase/ui',
         "@nolebase/vitepress-plugin-enhanced-readabilities",
       ],
     },

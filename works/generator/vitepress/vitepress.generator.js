@@ -29,7 +29,7 @@ const NAV_LINKS = {
     link: "/ranking",
   },
   recent: {
-    text: "近期热门文章",
+    text: "掘金3日热门文章",
     link: "/recent",
   },
   annual: {
