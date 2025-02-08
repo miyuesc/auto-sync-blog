@@ -54,7 +54,7 @@ export function article2MD(articleBean, useList = true) {
   let txt = `\r\r\n${useList ? "-" : "###"} ${title}`
 
   txt += `\n\r> ${brief_content.replaceAll("#", "")}...`
-  txt += `\n>\n> [前往掘金](${postUrl})`
+  txt += `\n>\n> [阅读原文](${postUrl})`
   txt += `\n\n📊 **${view_count} 阅读 · ${digg_count} 点赞 · ${comment_count} 评论 · ${collect_count} 收藏**`
   txt += `\n\n📅 ${dateMap.YMD}`
   txt += `&emsp;🏷 ${tags.map((tagName) => `\`${tagName}\``).join("  ")}`

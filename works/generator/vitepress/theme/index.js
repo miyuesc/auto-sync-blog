@@ -4,10 +4,10 @@ import DefaultTheme from "vitepress/theme-without-fonts"
 import {
   NolebaseEnhancedReadabilitiesMenu,
   NolebaseEnhancedReadabilitiesScreenMenu,
-} from "@nolebase/vitepress-plugin-enhanced-readabilities"
+} from "@nolebase/vitepress-plugin-enhanced-readabilities/client"
 
 import "./main.css"
-import "@nolebase/vitepress-plugin-enhanced-readabilities/dist/style.css"
+import "@nolebase/vitepress-plugin-enhanced-readabilities/dist/client/style.css"
 
 export default {
   extends: DefaultTheme,
