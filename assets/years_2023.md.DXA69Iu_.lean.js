@@ -1,0 +1,1 @@
+import{_ as t,c as a,o,az as r}from"./chunks/framework.CIsojbXE.js";const i=JSON.parse('{"title":"2023 年度概览","description":"","frontmatter":{},"headers":[],"relativePath":"years/2023.md","filePath":"years/2023.md"}'),c={name:"years/2023.md"};function d(p,e,n,u,h,l){return o(),a("div",null,e[0]||(e[0]=[r("",56)]))}const f=t(c,[["render",d]]);export{i as __pageData,f as default};
