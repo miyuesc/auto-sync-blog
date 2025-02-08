@@ -7,7 +7,7 @@ import {
 } from "@nolebase/vitepress-plugin-enhanced-readabilities/client"
 
 import "./main.css"
-import "@nolebase/vitepress-plugin-enhanced-readabilities/dist/client/style.css"
+import "@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css"
 
 export default {
   extends: DefaultTheme,

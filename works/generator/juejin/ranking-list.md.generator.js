@@ -86,7 +86,7 @@ ${processTopArticles(d)}
 }
 .tab-item-active {
   color: var(--vp-c-success-1);
-  background-color: var(--vp-code-block-bg);
+  background-color: var(--c-blue-lighter);
 }
 </style>`
 

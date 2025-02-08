@@ -10,27 +10,27 @@ import { getGlobalConfig } from "../../store/configuration/index.js"
 const NAV_LINKS = {
   overview: {
     text: "文章总览",
-    link: "/overview/index",
+    link: "/overview",
   },
   column: {
     text: "我的专栏",
-    link: "/columns/index",
+    link: "/columns",
   },
   category: {
     text: "我的分类",
-    link: "/categories/index",
+    link: "/categories",
   },
   tag: {
     text: "我的标签",
-    link: "/tags/index",
+    link: "/tags",
   },
   ranking: {
     text: "数据排行榜",
-    link: "/ranking/index",
+    link: "/ranking",
   },
   recent: {
     text: "近期热门文章",
-    link: "/recent/index",
+    link: "/recent",
   },
   annual: {
     text: "年度统计",
