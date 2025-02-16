@@ -1,0 +1,1 @@
+import{_ as e,c as a,o,az as r}from"./chunks/framework.CHDwjh_C.js";const i=JSON.parse('{"title":"2024 年度概览","description":"","frontmatter":{},"headers":[],"relativePath":"years/2024.md","filePath":"years/2024.md"}'),n={name:"years/2024.md"};function s(p,t,d,c,h,l){return o(),a("div",null,t[0]||(t[0]=[r("",36)]))}const u=e(n,[["render",s]]);export{i as __pageData,u as default};
