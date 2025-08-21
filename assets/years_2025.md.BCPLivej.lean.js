@@ -1,1 +1,0 @@
-import{_ as a,c as t,o,az as r}from"./chunks/framework.BGNSSXeg.js";const b=JSON.parse('{"title":"2025 年度概览","description":"","frontmatter":{},"headers":[],"relativePath":"years/2025.md","filePath":"years/2025.md"}'),p={name:"years/2025.md"};function n(c,e,s,l,d,h){return o(),t("div",null,e[0]||(e[0]=[r("",124)]))}const u=a(p,[["render",n]]);export{b as __pageData,u as default};
